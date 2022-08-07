@@ -1,0 +1,17 @@
+$bgcFooter: #333333;
+$txtColorFooter: #ffffff;
+
+.footer {
+  width: 1360px;
+  height: 110px;
+  background-color: $bgcFooter;
+  border-radius: 0px;
+}
+
+.footer__text {
+  padding-top: 65px;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: $txtColorFooter;
+}
