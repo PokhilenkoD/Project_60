@@ -1,3 +1,47 @@
 .blog {
-    background-color: aqua;
+    background: #0284D0;
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    & .blog__date {
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.65;
+        color: #FFFFFF;
+    }
+
+    &.blog__title {
+
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 1.26;
+        color: #FFFFFF;
+    }
+
+    &.blog__article {
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.55;
+        color: #FFFFFF;
+    }
+}
+
+button {
+    width: 196px;
+    height: 50px;
+    left: 30px;
+    top: 2587px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #FFFFFF;
 }
