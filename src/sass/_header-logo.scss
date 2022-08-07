@@ -1,3 +1,29 @@
 .header {
-    background-color: tomato;
+    &__link {
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+    &__logo {
+        font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 42px;
+            color: #28A745;
+    }
+    &__Icon {
+            width: 30px;
+        height: 30px;
+          fill: #28A745;
+        overflow: visible;
+    }
+    &__svg {
+        fill: #28A745;
+        width: 30px;
+    }
+    
 }
