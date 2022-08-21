@@ -1,29 +1,36 @@
 .header {
-    &__link {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Rectangle.png);
+    height: 700px;
+  &__link {
     font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 35px;
-        line-height: 42px;
-        color: #FFFFFF;
-    }
-    &__logo {
-        font-family: 'Open Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 35px;
-            line-height: 42px;
-            color: #28A745;
-    }
-    &__Icon {
-            width: 30px;
-        height: 30px;
-          fill: #28A745;
-        overflow: visible;
-    }
-    &__svg {
-        fill: #28A745;
-        width: 30px;
-    }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #ffffff;
+  }
+  &__logo {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #28a745;
+  }
+
+  &__Icon {
     
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+    // overflow: visible;
+  }
+  &__svg {
+    // fill: #28a745;
+    width: 30px;
+  }
 }
+a{
+    background-color: none !important;
+}
+
