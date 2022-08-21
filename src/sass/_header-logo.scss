@@ -1,41 +1,50 @@
 .header {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Rectangle.png);
-    height: 700px;
-    background-repeat: no-repeat;
-    
-  &__link {
-    
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 42px;
-    color: #ffffff;
-  }
-  &__logo {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 42px;
-    color: #28a745;
-  }
-
-  &__Icon {
-    
-    width: 30px;
-    height: 30px;
-    fill: #ffffff;
-   
-  }
-  &__svg {
-    color: #28a745;
-    fill: #28a745;
-    width: 30px;
-    height: 30px;
-  }
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Rectangle.png);
+  height: 700px;
+  background-repeat: no-repeat;
+  width: 600px;
+  margin: 0 auto;
 }
-a{
-    background-color: none !important;
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.header__link {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.header__logo {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: #28a745;
+}
+.header__Icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  margin-right: 10px;
+}
+.icon-Vector {
+  width: 1.2900390625em;
 }
 
+a {
+  background-color: none !important;
+}
