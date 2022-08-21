@@ -1,38 +1,44 @@
-.hero { background-color: aqua;}
+.hero {
+  background-color: aqua;
+}
 
 .hero-title {
-position: absolute;
-    width: 493px;
-    height: 66px;
-    left: 431px;
-    top: 279px;
+  position: absolute;
+  width: 493px;
+  height: 66px;
+  left: 431px;
+  top: 279px;
 
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 55px;
-    line-height: 1.2;
-    text-align: center;
-    color: #E9E9E9;
-    
-    padding-top: 229px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  color: #e9e9e9;
+
+  padding-top: 229px;
 }
 
 .hero-text {
-    position: absolute;
-        width: 459px;
-        height: 37px;
-        left: 451px;
-        top: 370px;
-    
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 37px;
-        text-align: center;
-        color: #E9E9E9;
+  position: absolute;
+  width: 459px;
+  height: 37px;
+  left: 451px;
+  top: 370px;
 
-        padding-top: 25px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 37px;
+  text-align: center;
+  color: #e9e9e9;
 
+  padding-top: 25px;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
 }
