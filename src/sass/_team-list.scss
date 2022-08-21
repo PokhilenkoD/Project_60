@@ -1,0 +1,43 @@
+.team-list {
+  display: flex;
+  flex-direction: row;
+}
+.team-member {
+  background-color: #e5e5e5;
+  width: 100%;
+}
+.team-description {
+  padding-top: 13px;
+  text-align: center;
+  padding-bottom: 59px;
+}
+.team-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.267;
+  margin-bottom: 12px;
+}
+
+.team-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.564;
+}
+.team-soc-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+.soc-item {
+  width: 35px;
+  height: 35px;
+}
+.soc-link {
+}
+
+.soc-icon {
+  fill: #ffffff;
+}
