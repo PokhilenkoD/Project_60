@@ -1,0 +1,17 @@
+.footer-icons{
+    display: flex;
+    align-items: center;
+}
+.footer-icons__item{
+    display: inline-flex;
+    &:not(:last-child){
+        margin-right: 25px;
+    }
+}
+.footer-icons__list{
+    list-style: none;
+
+}
+.footer-icons__icon {
+    fill:#FFFFFF ;
+}
