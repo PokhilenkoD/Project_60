@@ -1,3 +1,7 @@
+.container {
+  width: 1200;
+  padding: 20px;
+}
 .cases {
   background-color: #ffffff;
 }
@@ -11,4 +15,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+.cases-item {
+  width: calc(100% - 8px / 4);
 }
