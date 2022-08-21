@@ -1,0 +1,52 @@
+.blog {
+    background: #0284D0;
+    border-radius: 0px;
+}
+
+.blog__date {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height, or 165% */
+    color: #FFFFFF;
+}
+
+.blog__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    /* identical to box height, or 126% */
+    color: #FFFFFF;
+}
+
+.blog__article {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #FFFFFF;
+}
+
+.blog__button {
+    background: #0284D0;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+    &:hover,
+    &:focus {
+        background: #8dc5e5;
+    }
+}
